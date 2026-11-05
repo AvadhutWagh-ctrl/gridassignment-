@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.box1 { background-color: rgb(207, 191, 191); }
+.box2 { background-color: rgb(145, 145, 241); }
+.box3 { background-color: rgb(156, 105, 137); }
+.box4 { background-color: rgb(0, 174, 255); }
+.box5 { background-color: rgb(165, 106, 165); }
+.box6 { background-color: rgb(145, 133, 139); }
+.box7 { background-color: rgb(31, 199, 199); }
+.box8 { background-color: rgb(209, 128, 128); }
+.box9 { background-color: rgb(128, 192, 134); }
